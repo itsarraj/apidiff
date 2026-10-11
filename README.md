@@ -4,6 +4,12 @@ Diffs two OpenAPI specs and reports breaking changes — a CI gate on your
 API contract. Go's `oasdiff` is the closest existing tool; no standalone
 Rust equivalent.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
